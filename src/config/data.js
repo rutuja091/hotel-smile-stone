@@ -4,61 +4,61 @@ const MAIN_TITLE = "Hotel Smile Stone "
 
 const PRODUCTS = [
     {
-        title : "Tandoori Veggie Burger",
-        description :"“A fusion of classic Indian flavors and the American classic burger.✨”",
+        title : " Veggie Burger",
+        description :"“A fusion of classic Indian flavors and the American classic burger.🍔”",
         price : "₹ 150",
         imgUrl:"https://www.mccainindia.com/wp-content/uploads/2023/01/tandori-veggi-burger.jpg",
         isveg :true
         },
         {
-           title : "Pizza",
-           description :"“A slice a day keeps the sadness away 🍕😊”",
+           title : "Non Veg-Schezwan Chicken Pizza",
+           description :"“fiery Schezwan sauce meets tender chicken atop a crispy crust🍕”",
            price : "₹ 250",
-           imgUrl:"https://img.freepik.com/premium-photo/savory-paneer-tikka-pizza-captured-dark-backdrop-food-photos_908985-42917.jpg",
-           isveg : true
+           imgUrl:"https://static.tnn.in/thumb/msid-91549781,thumbsize-125986,width-1280,height-720,resizemode-75/91549781.jpg?quality=100",
+           isveg :false
         },
         {
-           title : "Waradi Thali",
-           description :"“Savoring the rich flavors of Maharashtra with this Varadi Thali. 🌶️”",
+           title : "sandwich",
+           description :"“ Vegetable sandwich is a type of vegetarian sandwich consisting of a vegetable filling between bread.”",
            price : "₹ 299",
-           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEr_OykWEyv05I20wVVNzVOeTwn9qjXlmkQ&s",
+           imgUrl:"https://img.pikbest.com/origin/09/14/42/82ipIkbEsT2dS.jpg!w700wp ",
            isveg : true
         },
         {
-           title : "Mutton Handi",
-           description :"“A pot full of flavor: Mutton Handi magic! 🍲”",
+           title : "Dum Biryani",
+           description :"“The meat is marinated and cooked along with short-grained and fine rice.🍗”",
            price : "₹ 850",
-           imgUrl:"https://t4.ftcdn.net/jpg/06/11/70/43/360_F_611704389_3h6UA692iFCCdWm6LxPtrRhqpEugnSF1.jpg",
+           imgUrl:"https://www.licious.in/blog/wp-content/uploads/2023/01/Shutterstock_2047827035-1024x683.jpg",
            isveg : false
         },
         {
-           title : "Burgur",
-           description :"“A classic combo: Burgur and love! ❤️”",
+           title : "Paneer",
+           description :"“Paneer is a traditional Indian cheese made with just 2 ingredients - milk and an acidic ingredient. 😋”",
            price : "₹ 120",
-           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvrInZmnx_RESLS1cbvtHqQidYZxcBK8SK4A&s",
+           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA25N-7FVPa2-vstPOHFFUUj8s8Gjs707GGQ&s",
            isveg : true
      
         },
         {
-              title : "Masal Dosa",
-              description :"“Masala dosa: The perfect blend of spice, crunch, and satisfaction.”",
+              title : "Pav Bhaji",
+              description :"“ a spiced mixture of mashed vegetables in a thick gravy served with bread.”",
               price : "₹ 90",
-              imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAk7Ho-A39sdwnIaUlP_0hA1tA6-k9Z-xT2A&s",
+              imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-MYN4FHWkyIS5c7nKOhWr2lc4DZs8Ki6G2w&s",
               isveg : true
         
          },
          {
-           title : "Chiken Shawarma",
-           description :"“Shawarma: The art of turning meat into magic.”",
+           title : "Fish Fry",
+           description :"“A fish fry is a meal containing battered or breaded fried fish.”",
            price : "₹ 120",
-           imgUrl:"https://png.pngtree.com/thumb_back/fw800/background/20240105/pngtree-exquisite-shawarma-kebab-with-savory-sausage-placed-on-a-textured-stone-image_13812945.png",
+           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8yZa7g7e5TQeWDYX9cqSkxVMyxINHfGvyjw&s",
            isveg : false
         },
         {
-           title : "Fish Fry",
-           description :"“Crispy bites that make your taste buds swim with joy”",
+           title : "chicken tikka",
+           description :"“Chicken Tikka is a popular sub-continent dish where pieces of marinated chicken are cooked in a tandoor/oven.”",
            price : "₹ 220",
-           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZPSq4XAhlmnwuT_PYLrnwKMnFPWtE-nT1cg&s",
+           imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVEbdSnZaU2hKSrj4FxPVGBR7NSXq_Z_7rQ&s",
            isveg : false
         },
         

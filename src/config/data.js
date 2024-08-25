@@ -1,6 +1,6 @@
 const MAIN_TITLE = "Hotel Smile Stone "
 
-
+const TAG_LINE="Order delicious Food online !!"
 
 const PRODUCTS = [
     {
@@ -70,12 +70,13 @@ const THEME =
     main : "#fffffe",
     highlight : "#3da9fc",
     secondary : "#90b4ce",
-    tartiary : "#ef4565"
+    tartiary : " #00000"
  }
 
 
 export {
     PRODUCTS,
     THEME,
-    MAIN_TITLE
+    MAIN_TITLE,
+    TAG_LINE
 }

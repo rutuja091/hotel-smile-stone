@@ -1,13 +1,9 @@
 import React from 'react'
 import "./Home.css"
 import FoodCard from '../../components/FoodCard/FoodCard'
-// import hotpot from "./hot-pot.png"
-import { PRODUCTS,MAIN_TITLE,THEME,TAG_LINE} from '../../config/data'
 
+import { PRODUCTS,MAIN_TITLE,THEME} from '../../config/data'
 
-const foods = [
-   
-]
 
 function Home() {
   return (<>
@@ -15,9 +11,9 @@ function Home() {
  
    <p  className = "hotel-Heading" style={{Color: THEME.tartiary}}>{MAIN_TITLE}</p>
  
-   {/* <img src={hotpot} className='heading-img' alt='logo'/> */}
+   
    </div>
-   {/* <div className='tagline'>{TAG_LINE}</div> */}
+  
  <div className='Food-card-Container'>
 
    {PRODUCTS.map((foodItem)=>{
